@@ -1,6 +1,9 @@
 package g252msgsrc
 
 class FooController {
+    def messageSource
 
-    def index() { }
+    def index() {
+        [messageSource: messageSource]
+    }
 }
